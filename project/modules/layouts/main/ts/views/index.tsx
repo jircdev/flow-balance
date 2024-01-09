@@ -1,4 +1,6 @@
 import * as React from 'react';
+import { Menu } from "pragmate-ui/menu"
+import { menuItems } from './menu-items';
 
 declare global {
 	namespace JSX {
@@ -11,6 +13,7 @@ declare global {
 export function Layout() {
 	return (
 		<main>
+			<Menu items={menuItems} title="Title" />
 			<beyond-layout-children />
 		</main>
 	);

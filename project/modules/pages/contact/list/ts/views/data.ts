@@ -1,0 +1,73 @@
+export const data = [
+    {
+      id: 1,
+      name: 'Juan Perez',
+      email: 'juan@example.com',
+      phone: '123456789',
+      description: 'Client since 2020',
+    },
+    {
+      id: 2,
+      name: 'Maria Gomez',
+      email: 'maria@example.com',
+      phone: '987654321',
+      description: 'Interested in new products',
+    },
+    {
+      id: 3,
+      name: 'Carlos Rodriguez',
+      email: 'carlos@example.com',
+      phone: '555123789',
+      description: 'Partner since 2019',
+    },
+    {
+      id: 4,
+      name: 'Laura Garcia',
+      email: 'laura@example.com',
+      phone: '789654321',
+      description: 'Participated in project X',
+    },
+    {
+      id: 5,
+      name: 'Pedro Martinez',
+      email: 'pedro@example.com',
+      phone: '456789123',
+      description: 'Creative designs',
+    },
+    {
+      id: 6,
+      name: 'Ana Lopez',
+      email: 'ana@example.com',
+      phone: '159357852',
+      description: 'Collaboration in campaigns',
+    },
+    {
+      id: 7,
+      name: 'Sara Fernandez',
+      email: 'sara@example.com',
+      phone: '369258147',
+      description: 'Interest in predictive analysis',
+    },
+    {
+      id: 8,
+      name: 'Luis Torres',
+      email: 'luis@example.com',
+      phone: '147258369',
+      description: 'Advice on processes',
+    },
+    {
+      id: 9,
+      name: 'Elena Ramirez',
+      email: 'elena@example.com',
+      phone: '258369147',
+      description: 'Potential collaboration in events',
+    },
+    {
+      id: 10,
+      name: 'Diego Sanchez',
+      email: 'diego@example.com',
+      phone: '369147258',
+      description: 'Experience in agile projects',
+    },
+  ];
+  

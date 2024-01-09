@@ -1,0 +1,22 @@
+{
+  "name": "management",
+  "widget": {
+    "route": "/contact/management",
+    "is": "page",
+    "scss": {
+      "path": "/scss",
+      "files": [
+        "*"
+      ]
+    },
+    "ts": {
+      "path": "/ts",
+      "files": [
+        "*"
+      ]
+    },
+    "element": {
+      "name": "contact-magement-page"
+    }
+  }
+}

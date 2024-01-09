@@ -1,0 +1,22 @@
+{
+  "name": "products-list",
+  "widget": {
+    "route": "/products/list",
+    "is": "page",
+    "scss": {
+      "path": "/scss",
+      "files": [
+        "*"
+      ]
+    },
+    "ts": {
+      "path": "/ts",
+      "files": [
+        "*"
+      ]
+    },
+    "element": {
+      "name": "products-list-element"
+    }
+  }
+}

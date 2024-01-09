@@ -1,6 +1,9 @@
 @use 'dark';
 @use 'light';
 @import "material-design";
+@import 'palette/neutral';
+@import 'palette/dynamic';
+
 
 :root {
   --font-family: 'Roboto', sans-serif;
@@ -15,6 +18,7 @@
   --warning: #F7C700;
   --error: #f04141;
   --border-radius-base: 8px;
+	@include neutral-palette();
   @include light.properties();
   @media(prefers-color-scheme: dark) {
     @include dark.properties();

@@ -1,0 +1,1 @@
+export const keys = ['name', 'description', 'price', 'quantity']

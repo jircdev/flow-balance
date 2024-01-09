@@ -1,0 +1,22 @@
+{
+  "name": "contact-list",
+  "widget": {
+    "route": "/contact/list",
+    "is": "page",
+    "scss": {
+      "path": "/scss",
+      "files": [
+        "*"
+      ]
+    },
+    "ts": {
+      "path": "/ts",
+      "files": [
+        "*"
+      ]
+    },
+    "element": {
+      "name": "contact-list-element"
+    }
+  }
+}

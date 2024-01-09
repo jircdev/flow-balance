@@ -1,0 +1,22 @@
+{
+  "name": "view",
+  "widget": {
+    "route": "/accounts/view",
+    "is": "page",
+    "scss": {
+      "path": "/scss",
+      "files": [
+        "*"
+      ]
+    },
+    "ts": {
+      "path": "/ts",
+      "files": [
+        "*"
+      ]
+    },
+    "element": {
+      "name": "accounts-view"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "management",
+  "widget": {
+    "route": "/products/management",
+    "is": "page",
+    "scss": {
+      "path": "/scss",
+      "files": [
+        "*"
+      ]
+    },
+    "ts": {
+      "path": "/ts",
+      "files": [
+        "*"
+      ]
+    },
+    "element": {
+      "name": "products-magement-page"
+    }
+  }
+}
