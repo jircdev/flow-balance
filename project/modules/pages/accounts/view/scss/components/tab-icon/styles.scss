@@ -1,0 +1,19 @@
+.tab-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    width: max-content;
+
+    .content-border--icon {
+        border-radius: var(--border-radius-base);
+        padding: .5rem;
+        background-color: var(--primary);
+        transition: transform 0.3s ease-in-out;
+
+        &:active {
+            transform: scale(0.8);    
+        }
+    }
+}

@@ -14,4 +14,11 @@
             font-size: 16px;
         }
     }
+
+    .section-content-tab {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
 }
