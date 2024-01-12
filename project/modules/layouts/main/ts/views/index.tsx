@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Menu } from "pragmate-ui/menu"
 import { menuItems } from './menu-items';
+/* import { Header } from 'flow-balance/body'; */
 
 declare global {
 	namespace JSX {

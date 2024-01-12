@@ -1,0 +1,10 @@
+.body__container-header {
+    border: 1px solid var(--outline);
+    border-radius: var(--border-radius-base);
+    background-color: var(--surface-variant);
+
+    height: 5rem;
+    position: absolute;
+    width: 100%;
+    top: -40px;
+}

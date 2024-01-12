@@ -1,8 +1,10 @@
-.container__table {
-    padding: 2rem;
-    border-radius: var(--border-radius-base);
-}
 
 .page__container-contact {
-    padding: 0rem 1rem;
+    padding: 0rem 1rem 1rem 1rem;
+
+    .container__list--contact {
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+    }
 }
