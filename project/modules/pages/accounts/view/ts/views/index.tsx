@@ -18,30 +18,15 @@ function View() {
 		setTab(index);
 	};
 
-	const panes = [
-		{ tab: 'Pestaña 1', content: <div>Contenido de la pestaña 1</div> },
-		{ tab: 'Pestaña 2', content: <div>Contenido de la pestaña 2</div> },
-	]
+	
 	return (
 		<main className="page__container-account">
 			<TotalCount />
-			{/* <TabsContainer panes={panes} active={tab} onChange={handleTabChange}>
-				<Tabs>
-					<Tab>
-						<IconButton icon='home' onClick={() => setTab(0)} />
-					</Tab>
-					<Tab>
-						<IconButton icon='search' onClick={() => setTab(1)} />
-					</Tab>
-				</Tabs>
-			</TabsContainer> */}
-
-			
 			<div className="section-content-tab">
 				<TabIcon icon='detail' label={labelsTab.history} />
 				<TabIcon icon='operations' label={labelsTab.transactions} />
 			</div>
-			{/* <ContentMain /> */}
+			<ContentMain />
 		</main>
 	);
 }

@@ -1,16 +1,23 @@
 .content-main--money {
-    border: 1px solid var(--outline);
     border-radius: var(--border-radius-base);
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: .5rem;
-    padding: 5rem;
+    padding: .5rem;
     width: 100%;
     margin: 0rem 1rem;
+    justify-content: space-between;
+    background-color: var(--surface-variant);
 
-    .content-border-icon--main {
-        border-radius: 50%;
-        background-color: var(--primary);
+    & .content-space-beetween {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: .5rem;
+        .content-border-icon--main {
+            border-radius: 50%;
+            background-color: var(--primary);
+        }
     }
 }
