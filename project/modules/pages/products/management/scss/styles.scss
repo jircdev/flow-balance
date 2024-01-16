@@ -1,7 +1,8 @@
 .page_container-form {
     display: flex;
-    place-content: center   ;
+    place-content: center;
     padding: 2rem;
+    margin: 1rem;
     .card-page {
         display: flex;
         flex-direction: column;
@@ -11,6 +12,7 @@
         border: 1px solid var(--outline);
         border-radius: var(--border-radius-base);
         padding: 1rem 2rem;
+        background-color: var(--surface-variant);
     
         .content-form {
             display: flex;
@@ -22,12 +24,12 @@
 
                 display: grid;
                 grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-                gap: 1rem;
+                gap: .5rem;
             }
 
 
             .pui-button {
-                max-width: 180px;
+                min-width: 140px;
                 align-self: flex-end;
             }
 
