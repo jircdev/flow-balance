@@ -1,0 +1,25 @@
+.container__btn-add--border {
+    border-radius: 50%;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    min-height: 60px;
+    right: 0;
+    bottom: 50px;
+    right: 20px;
+    width: 60px;
+    background-color: var(--primary);
+
+    .pragmate-icon-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .pragmate-icon {
+            height: 40px;
+            width: 40px;
+        }
+    }
+}

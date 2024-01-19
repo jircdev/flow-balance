@@ -1,0 +1,25 @@
+.container__nav-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 95%;
+    padding: 0rem .5rem;
+    align-items: center;
+
+    .content-header {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        align-items: center;
+        justify-content: space-around;
+
+
+        .pragmate-icon-button {
+
+            svg {
+                height: 25px;
+                width: 25px;
+            }
+        }
+    }
+}

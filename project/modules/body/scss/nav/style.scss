@@ -1,0 +1,20 @@
+.container__nav {
+    position: sticky;
+    top: 0;
+    background-color: var(--surface-variant);
+    display: flex;
+    /* position: sticky;
+    top: 0; */
+    z-index: 20;
+    transition: none;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid var(--outline);
+}
+
+.container__navbar-scrolled {
+    transition: none;
+    background-color: var(--surface-variant);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--outline);
+}

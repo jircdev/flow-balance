@@ -1,5 +1,5 @@
 {
-  "name": "management",
+  "name": "product-management",
   "widget": {
     "route": "/products/management",
     "is": "page",

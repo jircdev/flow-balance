@@ -1,16 +1,15 @@
 import * as React from "react";
 import { CreateProductsContext } from "./context";
 import { Table } from "./table";
+import { NavProduct } from "./nav";
 export /*bundle*/
 function View(): JSX.Element {
 	const value = {};
   return (
-	<CreateProductsContext.Provider value={value}>	
+	<CreateProductsContext.Provider value={value}>
+		<NavProduct />	
 		<div className="page__container-contact">
-			{/* <h2 className="contact-h2">List of Contacts</h2> */}
-		<section className="container__table">
-			<Table />
-		</section>
+		
 		</div>
 	</CreateProductsContext.Provider>
   );

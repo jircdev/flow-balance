@@ -1,0 +1,53 @@
+ .container-avatar {
+
+    &__icon {
+        display: grid;
+        place-items: center;
+
+        button.pui-icon-button {
+            height: 3rem;
+            width: 3rem;
+            svg.pui-icon {
+                height: 2rem !important;
+                width: 2rem !important;
+            }
+        } 
+    }
+
+    &__image {
+        width: 2.5rem;
+        height: 2.5rem;
+        background-color: var(--surface);
+        clip-path: circle(50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        .pui-image {
+            width: 2.5rem;
+            height: 2.5rem;
+            clip-path: circle(50%);
+            position: relative;
+            top: -3px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+ }
+ .image-menu {
+    
+
+    button.pui-icon-button svg.pui-icon {
+        width: 2rem !important;
+        height: 2rem !important;
+    }
+ }

@@ -3,6 +3,7 @@ import { TotalCount } from './total';
 import { TabsContainer, Tabs, Tab, Panes } from 'pragmate-ui/tabs';
 import { TabIcon } from '../components/tab-icon';
 import { ContentMain } from './content-main';
+import { NavAccounts } from './nav';
 
 export /*bundle*/
 function View() {
@@ -20,13 +21,16 @@ function View() {
 
 	
 	return (
-		<main className="page__container-account">
-			<TotalCount />
-			<div className="section-content-tab">
-				<TabIcon icon='detail' label={labelsTab.history} />
-				<TabIcon icon='operations' label={labelsTab.transactions} />
-			</div>
-			<ContentMain />
-		</main>
+		<>
+			<NavAccounts />
+			<main className="page__container-account">
+				<TotalCount />
+				<div className="section-content-tab">
+					<TabIcon icon='detail' label={labelsTab.history} />
+					<TabIcon icon='operations' label={labelsTab.transactions} />
+				</div>
+				<ContentMain />
+			</main>
+		</>
 	);
 }

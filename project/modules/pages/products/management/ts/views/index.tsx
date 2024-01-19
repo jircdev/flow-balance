@@ -11,7 +11,7 @@ export function View() {
 		<main className="page_container-form">
 			<div className="card-page">
 				<FormHeader />
-				<FormContact />			
+				{/* <FormContact /> */}			
 			</div>
 		</main>
 	  );

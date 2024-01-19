@@ -1,0 +1,15 @@
+{
+  "name": "flow-layout",
+  "widget": {
+    "is": "layout",
+    "ts": {
+      "path": "/widget/ts",
+      "files": [
+        "*"
+      ]
+    },
+    "element": {
+      "name": "flow-layout-element"
+    }
+  }
+}

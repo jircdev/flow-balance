@@ -1,5 +1,5 @@
 {
-  "name": "management",
+  "name": "contact-management",
   "widget": {
     "route": "/contact/management",
     "is": "page",

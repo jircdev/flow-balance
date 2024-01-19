@@ -1,7 +1,8 @@
 import * as React from 'react';
-import { Menu } from "pragmate-ui/menu"
+import { Menu } from "flow-balance/menu";
 import { menuItems } from './menu-items';
-/* import { Header } from 'flow-balance/body'; */
+import { ThemeSwitcher } from 'flow-balance/theme-swicher';
+import { BaseToolbar } from 'flow-balance/toolbar';
 
 declare global {
 	namespace JSX {
@@ -14,7 +15,10 @@ declare global {
 export function Layout() {
 	return (
 		<main>
-			<Menu items={menuItems} title="Title" />
+			{/* <BaseToolbar>
+				<Menu items={menuItems} title="Title" />
+				<ThemeSwitcher />
+			</BaseToolbar> */}
 			<beyond-layout-children />
 		</main>
 	);

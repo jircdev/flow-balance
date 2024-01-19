@@ -1,0 +1,53 @@
+.base-element-toolbar {
+	display: flex;
+	padding: 0rem;
+	align-items: center;
+	border-radius: 0px 0px 42px 43px;
+-moz-border-radius: 0px 0px 42px 43px;
+-webkit-border-radius: 0px 0px 42px 43px;
+	color: var(--on-background);
+	font-weight: 500;
+	letter-spacing: 0.24px;
+	border-radius: none;
+	height: 4.375rem;
+	position: sticky;
+	min-width: 100%;
+	width: 100%;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	z-index: 1;
+	background: var(--surface-variant);
+	
+	&.no-back {
+		grid-template-columns: 1fr 40px auto;
+	}
+
+	.pui-icon-button {
+		display: grid;
+		justify-content: center;
+		align-items: center;
+		width: 25px;
+		height: 25px;
+		svg.pui-icon {
+			width: 25px;
+			height: 25px;
+			fill: var(--secondary);
+		}
+	}
+
+	span {
+		display: block;
+		justify-self: left;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		line-height: 1;
+		flex: 1;
+	}
+	h1 {
+		text-transform: lowercase;
+		&::first-letter {
+			text-transform: uppercase;
+		}
+	}
+}

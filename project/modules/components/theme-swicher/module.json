@@ -1,0 +1,17 @@
+{
+  "name": "theme-swicher",
+  "code": {
+    "scss": {
+      "path": "/scss",
+      "files": [
+        "*"
+      ]
+    },
+    "ts": {
+      "path": "/ts",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}
