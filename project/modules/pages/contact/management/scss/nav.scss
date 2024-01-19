@@ -12,14 +12,10 @@
         gap: 0.5rem;
         align-items: center;
         justify-content: space-around;
+    }
 
-
-        .pragmate-icon-button {
-
-            svg {
-                height: 25px;
-                width: 25px;
-            }
-        }
+    .pui-button {
+        min-width: 80px;
+        border-radius: var(--border-radius-base);
     }
 }
