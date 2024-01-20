@@ -5,6 +5,7 @@ import { ContentContact } from "../components/contact";
 import { ButtonAdd } from 'flow-balance/button-add';
 import { routing } from '@beyond-js/kernel/routing';
 import { NavList } from "./nav";
+import { Empty } from 'pragmate-ui/empty';
 
 export /*bundle*/
 function View(): JSX.Element {
@@ -14,6 +15,7 @@ function View(): JSX.Element {
   }
 
 	const value = {};
+  const isEmpty = data.length === 0 ? <Empty text="No Data" icon="info" /> : null;  
 	const output = data.map(contact => (
         <ContentContact
           key={contact.id}
@@ -23,10 +25,13 @@ function View(): JSX.Element {
           email={contact.email}
         />
       ))
+
+    console.log(!data.length);
   return (
 	<CreateContactContext.Provider value={value}>	
     <NavList />
 		<div className="page__container-contact">
+    {isEmpty}
       <section className="container__list--contact">
         {output}
       </section>

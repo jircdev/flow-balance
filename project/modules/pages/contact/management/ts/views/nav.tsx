@@ -23,7 +23,7 @@ export function NavForm({onClick}: INavForm) {
                 <div className="container__nav-form">
                     <section className="content-header">
                         <IconButton className='xs' onClick={handleRedirect} icon='close' />
-                        <h3 className="nav-form__h3">Create Contact</h3>
+                        <h4 className="nav-form__h4">Create Contact</h4>
                     </section>
                     <Button variant="primary" onClick={handleClick}>Save</Button>
                 </div>
