@@ -1,0 +1,22 @@
+{
+  "name": "loading-page",
+  "platforms": [
+    "web",
+    "ios",
+    "android"
+  ],
+  "code": {
+    "ts": {
+      "path": "/ts",
+      "files": [
+        "*"
+      ]
+    },
+    "sass":{
+      "path": "/scss",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}
