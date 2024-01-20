@@ -15,21 +15,17 @@ export function FormContact() {
 
 	  /* const saveContact = () => {
 		const newContact = {
-		  id: data.length + 1, // Genera un nuevo ID (puedes usar una lógica diferente si lo prefieres)
+		  id: data.length + 1, 
 		  name: dataFields.name,
 		  email: dataFields.email,
 		  phone: dataFields.phone,
 		  description: dataFields.description,
 		};
 	  
-		// Actualiza la lista de contactos
 		const updatedData = [...data, newContact];
-	  
-		// Puedes imprimir la nueva lista para verificar
 		console.log(updatedData);
 	  
-		// Aquí podrías guardar la nueva lista en tu estado global o en tu backend
-		// setStateGlobal(updatedData);
+		setStateGlobal(updatedData);
 	  }; */
 	
 	  const handleInputChange = (event) => {
