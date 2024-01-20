@@ -9,7 +9,7 @@ export function NavList() {
     return (
         <>
             <BaseToolbar>
-				<Menu items={menuItems} title="Title" />
+				<Menu items={menuItems} title="Gabriel Castro" />
 				<Input type="text" placeholder="search contact..." value='' />
 				<ThemeSwitcher />
 			</BaseToolbar>

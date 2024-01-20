@@ -1,3 +1,19 @@
+.shadow {
+    z-index: 2;
+    background-color: rgba(35, 37, 37, 0.5); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    min-height: 191vh;
+    min-width: 500px;
+    position: absolute;
+    position: relative;
+  backdrop-filter: blur(2px);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all 300ms ease-in-out;
+}
+
 .side-menu {
     position: fixed;
     top: 0;
@@ -8,11 +24,10 @@
     z-index: 30;
     
 
-    &__toggle.pui-icon-button {
+    &__toggle.pragmate-icon-button {
         position: absolute;
         right: 0;
         top: 0;
-        background-color: var(--background);
         border: none;
         outline: none;
         cursor: pointer;
@@ -20,12 +35,10 @@
             fill: var(--secondary);
         }
     }
-
     &__content {
-        /* position: absolute; */
-        -webkit-box-shadow: 10px 3px 19px 0px rgba(0,0,0,0.75);
-        -moz-box-shadow: 10px 3px 19px 0px rgba(0,0,0,0.75);
-        box-shadow: 10px 3px 19px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 5px 3px 13px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 5px 3px 13px 0px rgba(0,0,0,0.75);
+        box-shadow: 5px 3px 13px 0px rgba(0,0,0,0.75);
         position: fixed;
         top: 0;
         left: 0;
@@ -34,34 +47,46 @@
         background-color: var(--surface-variant);
         z-index: 20;
         transition: all 300ms ease-in-out;
+        display: flex;
+        flex-direction: column;
         &__hide {
             transform: translateX(-320px);
         }
-        header {
+
+        .side-menu--flex {
             display: flex;
+            flex-direction: row;
             align-items: center;
-            min-height: 13px;
-            height: 13px;
-            column-gap: 16px;
+            padding: 0rem .8rem;
             border-bottom: 1px solid var(--primary);
-            padding-bottom: 16px;
-            padding: 40px 16px 16px;
-            .image-menu {
-                width: 64px;
-                height: 64px;
-                background-color: var(--surface);
-                border-radius: 50%;
-                display: grid;
-                place-items: center;
-                .beyond-element-image {
-                    width: 22px;
-                    height: 18px;
+            align-items: center;
+            min-height: 80px;
+            header {
+                display: flex;
+                align-items: center;
+                min-height: 13px;
+                align-items: center;
+                height: 13px;
+                column-gap: 16px;
+                padding-bottom: 16px;
+                padding: 16px;
+                .image-menu {
+                    width: 64px;
+                    height: 64px;
+                    background-color: var(--surface);
+                    border-radius: 50%;
+                    display: grid;
+                    place-items: center;
+                    .beyond-element-image {
+                        width: 22px;
+                        height: 18px;
+                    }
                 }
-            }
-            span {
-                font-weight: bold;
-                font-size: 18px;
-                color: var(--text-color);
+                span {
+                    font-weight: bold;
+                    font-size: 18px;
+                    color: var(--text-color);
+                }
             }
         }
     }

@@ -12,6 +12,7 @@ export /*bundle*/ const Menu = ({ items, title }): JSX.Element => {
     <MenuContext.Provider value={{ isOpen, items, toggleMenu }}>
       <IconButton onClick={toggleMenu} icon="menu" />
       <SideMenuContent title={title} />
+      {isOpen && <div className="shadow"></div>}
       {isOpen && <div onClick={toggleMenu} className="background-black" />}
     </MenuContext.Provider>
   );
