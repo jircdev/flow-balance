@@ -12,7 +12,6 @@ export function CameraButton() {
 	const onClickMobile = async event => {
 		event.preventDefault();
 		const blob = await mediaDevice.getPicture();
-		//const imageUrl = URL.createObjectURL(blob);
 		setImage(blob);
 		if (onTake) await onTake(mediaDevice);
 		setIsOpen(false);

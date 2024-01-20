@@ -62,10 +62,16 @@ export /*bundle*/ const TakeImage: ForwardRefExoticComponent<props & RefAttribut
 			onTake,
 			setIsOpen,
 		};
+		const sources = [
+			{
+				minWidth: 500,
+				maxWidth: 1280,
+			}
+		]
 		return (
 			<TakeImageContext.Provider value={contextValue}>
 				<div>
-					<Image src={image} alt=" " className={cls}>
+					<Image src={image} size='20' alt=" " className={cls}>
 						<IconButton onClick={toggleMenu} icon="camera" disabled={false} />
 					</Image>
 
