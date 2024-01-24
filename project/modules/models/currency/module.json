@@ -1,0 +1,8 @@
+{
+  "name": "currency",
+  "bundle": "ts",
+  "platforms": [
+    "node", "web"
+  ],
+  "files": "*"
+}

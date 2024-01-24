@@ -1,0 +1,8 @@
+{
+  "name": "user",
+  "bundle": "ts",
+  "platforms": [
+    "node", "web"
+  ],
+  "files": "*"
+}

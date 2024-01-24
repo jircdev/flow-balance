@@ -1,5 +1,5 @@
 import { Collection } from "@beyond-js/reactive/entities";
-import { ProductCategory } from "./products-category-item"; 
+import { ProductCategory } from "./item"; 
 
 export /*bundle*/ class ProductsCategorys extends Collection {
   

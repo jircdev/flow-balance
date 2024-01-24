@@ -1,0 +1,8 @@
+{
+  "name": "products",
+  "bundle": "ts",
+  "platforms": [
+    "node", "web"
+  ],
+  "files": "*"
+}

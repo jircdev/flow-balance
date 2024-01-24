@@ -1,0 +1,8 @@
+{
+  "name": "contact",
+  "bundle": "ts",
+  "platforms": [
+    "node", "web"
+  ],
+  "files": "*"
+}

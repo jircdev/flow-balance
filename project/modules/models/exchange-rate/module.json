@@ -1,0 +1,8 @@
+{
+  "name": "exchange-rate",
+  "bundle": "ts",
+  "platforms": [
+    "node", "web"
+  ],
+  "files": "*"
+}

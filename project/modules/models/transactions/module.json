@@ -1,0 +1,8 @@
+{
+  "name": "transactions",
+  "bundle": "ts",
+  "platforms": [
+    "node", "web"
+  ],
+  "files": "*"
+}

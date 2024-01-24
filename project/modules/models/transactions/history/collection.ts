@@ -1,5 +1,5 @@
 import { Collection } from "@beyond-js/reactive/entities";
-import { TransactionHistory } from "./transaction-history-item";
+import { TransactionHistory } from "./item";
 
 export /*bundle*/ class TransactionsHistorys extends Collection {
   
