@@ -1,5 +1,5 @@
 {
-  "name": "user",
+  "name": "model/user",
   "bundle": "ts",
   "platforms": [
     "node", "web"

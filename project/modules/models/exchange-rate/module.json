@@ -1,5 +1,5 @@
 {
-  "name": "exchange-rate",
+  "name": "exchange-rates",
   "bundle": "ts",
   "platforms": [
     "node", "web"

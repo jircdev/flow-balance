@@ -1,5 +1,5 @@
 {
-  "name": "financial-account",
+  "name": "model/financial-account",
   "bundle": "ts",
   "platforms": [
     "node", "web"

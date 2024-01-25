@@ -1,5 +1,5 @@
 {
-  "name": "report",
+  "name": "model/report",
   "bundle": "ts",
   "platforms": [
     "node", "web"

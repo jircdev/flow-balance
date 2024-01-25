@@ -1,5 +1,5 @@
 {
-  "name": "products",
+  "name": "model/products",
   "bundle": "ts",
   "platforms": [
     "node", "web"

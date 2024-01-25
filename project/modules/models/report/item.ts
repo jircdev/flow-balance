@@ -1,9 +1,17 @@
 import { ReactiveModel } from "@beyond-js/reactive/model";
 import {Item} from '@beyond-js/reactive/entities';
 
-export /* bundle */ class Report extends Item<Report> {
-        id: number;
-        type: string;
-        details: string;
-        expensesIncurred: number;
+interface IReports {
+    id: number;
+    type: string;
+    details: string;
+    expensesIncurred: number;
+}
+
+export /* bundle */ class Report extends Item<IReports> {
+    protected properties: string[] = [ 'id', 'type', 'details', 'expensesIncurred',];
+
+    constructor({ id } = { id: undefined }) {
+		super({ storeName: 'Reports', db: 'FlowBalance', id });
+	}
 }
