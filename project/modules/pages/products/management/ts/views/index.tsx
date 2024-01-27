@@ -1,18 +1,18 @@
 import React from 'react';
 import { useFields } from 'flow-balance/hooks';
-import { FormHeader } from './header';
 import { FormContact } from './form';
+import { CreateProductsContext } from './context';
+import { Navigation } from './nav';
 
-export function View() {
+export function View({store}) {
 
-	
-	
-	  return (
+	const value = {store}
+	return (
+	<CreateProductsContext.Provider value={value}>
+		<Navigation />
 		<main className="page_container-form">
-			<div className="card-page">
-				<FormHeader />
-				{/* <FormContact /> */}			
-			</div>
+			<FormContact />
 		</main>
-	  );
+	</CreateProductsContext.Provider>
+	);
 }

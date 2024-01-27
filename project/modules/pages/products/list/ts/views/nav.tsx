@@ -10,6 +10,7 @@ export function NavProduct() {
            <BaseToolbar>
             <div className="container_nav-products">
 				<Menu items={menuItems} title="Title" />
+                <h4 className="nav-products__h4">Products</h4>
 				<ThemeSwitcher />
             </div>
 			</BaseToolbar>
