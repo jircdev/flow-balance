@@ -3,7 +3,7 @@ async function create() {
 	try {
 		const db = await DBManager.config('FlowBalance@3', {
 			Contacts: 'id, email, phone, description, name, information',
-			Currencies: 'id, name, code, symbol,',
+			Currencies: 'id, name, code, symbol',
 			FinancialAccounts: 'id, income, expenses, password, balance, accountNumber',
 			Products: 'id, name, price, quantity, description',
 			ProductsCategory: 'id, name, description',
@@ -14,7 +14,7 @@ async function create() {
 			Transactions: 'id, source, date, typeTransaction',
 			TransactionCategories: 'id, name, description, type',
 			TransactionHistories: 'id, date, register, description, transactionLog',
-			Users: 'id, name, lastName, password, description,'
+			Users: 'id, name, lastName, password, description'
 		});
 
 		//db.user.bulkAdd(users);

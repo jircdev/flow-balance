@@ -3,6 +3,9 @@
     border-radius: var(--border-radius-base);
 }
 
-.page__container-contact {
-    padding: 0rem 1rem;
+.page__container-products {
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }

@@ -51,7 +51,7 @@ export function FormContact() {
 			  />
 			  <Toasts position={{ bottom: '2rem', right: '2rem' }} />
 			</div>
-			<ButtonAdd icon='check' />
+			<ButtonAdd icon='check' onClick={handleSaveProducts} />
 		  </Form>
     )
 }

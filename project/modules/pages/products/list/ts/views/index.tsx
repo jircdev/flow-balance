@@ -4,18 +4,34 @@ import { ButtonAdd } from 'flow-balance/button-add';
 import { NavProduct } from "./nav";
 import { routing } from '@beyond-js/kernel/routing';
 import { EmptyProducts } from "./empty-products";
+import { useBinder } from "@beyond-js/react-18-widgets/hooks";
+import { ProductElement } from "../components/products";
+
 export /*bundle*/
 function View({store}): JSX.Element {
 
-	const value = {};
+	const [storeValue, setStoreValue] = React.useState({});
 
-	console.log(store.collection.length );
+	useBinder([store], () => setStoreValue({}));
+	
+	const output = store.collection.items.map((item, index) => (
+        <ProductElement
+            key={index} 
+            name={item.name}
+            price={item.price}
+            description={item.description}
+            quantity={item.quantity}
+        />
+    ));
+	
+	const value = {store};
 	if(store.collection.length === 0) return <EmptyProducts store={store}/>;
+
 	return (
 		<CreateProductsContext.Provider value={value}>
 			<NavProduct />	
-			<div className="page__container-contact">
-
+			<div className="page__container-products">
+				{output}			
 			</div>
 			<ButtonAdd onClick={store.addProducts} icon='box' />
 		</CreateProductsContext.Provider>
