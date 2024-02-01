@@ -2,7 +2,9 @@ import * as React from 'react';
 import { CreateLoginContext } from './context';
 import { Header } from './header';
 import { Redirect } from './redirect';
-import { Form } from './form';
+import { FormLogin } from './form';
+import { login } from './form-login';
+import { WiseForm, WrappedForm } from 'wise-form';
 
 export /*bundle*/
 function View() {
@@ -12,10 +14,13 @@ function View() {
 		<CreateLoginContext.Provider value={value}>
 			<main className='page_container-login'>
 				<section className="login-app">
-					<Header />
+					{/* <Header />
 					<Redirect />
-					<Form />
+					<FormLogin /> */}
 					{/* <Footer /> */}
+					<WiseForm
+						settings={login}
+					/>;
 				</section>
 			</main>
 		</CreateLoginContext.Provider>

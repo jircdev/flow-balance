@@ -1,41 +1,37 @@
 import * as React from "react";
 import { CreateContactContext } from "./context";
-import { data } from "./data";
 import { ContentContact } from "../components/contact";
 import { ButtonAdd } from 'flow-balance/button-add';
-import { routing } from '@beyond-js/kernel/routing';
 import { NavList } from "./nav";
-import { Empty } from 'pragmate-ui/empty';
+import { useBinder } from "@beyond-js/react-18-widgets/hooks";
+import { EmptyContacts } from "./empty-contacts";
 
 export /*bundle*/
-function View(): JSX.Element {
+function View({store}): JSX.Element {
 
-  const redirection = () => {
-    routing.pushState('/contact/management');
-  }
+  const [storeValue, setStoreValue] = React.useState({});
 
-	const value = {};
-  const isEmpty = data.length === 0 ? <Empty text="No Data" icon="info" /> : null;  
-	const output = data.map(contact => (
+	useBinder([store], () => setStoreValue({}));
+
+	const value = {store};
+	const output = store.collection.items.map((item) => (
         <ContentContact
-          key={contact.id}
-          fullName={contact.name}
+          key={item.name}
+          fullName={item.name}
           image="https://unavatar.io/random"
-          phone={contact.phone}
-          email={contact.email}
+          phone={item.phone}
+          email={item.email}
         />
       ))
-
-    console.log(!data.length);
+	if(store.collection.items.length === 0) return <EmptyContacts store={store}/>;
   return (
 	<CreateContactContext.Provider value={value}>	
     <NavList />
 		<div className="page__container-contact">
-    {isEmpty}
       <section className="container__list--contact">
         {output}
       </section>
-      <ButtonAdd onClick={redirection} />
+      <ButtonAdd onClick={store.redirectManagement} />
 		</div>
 	</CreateContactContext.Provider>
   );

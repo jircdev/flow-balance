@@ -3,7 +3,7 @@ import { Input } from 'pragmate-ui/form';
 import { Checkbox } from 'pragmate-ui/form';
 import { Button } from 'pragmate-ui/components';
 
-export function Form() {
+export function FormLogin() {
     return (
         <form action="" className="login-app__form">
             <div className="form-app">

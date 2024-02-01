@@ -2,10 +2,10 @@ import * as React from "react";
 import { CreateProductsContext } from "./context";
 import { ButtonAdd } from 'flow-balance/button-add';
 import { NavProduct } from "./nav";
-import { routing } from '@beyond-js/kernel/routing';
 import { EmptyProducts } from "./empty-products";
 import { useBinder } from "@beyond-js/react-18-widgets/hooks";
 import { ProductElement } from "../components/products";
+
 
 export /*bundle*/
 function View({store}): JSX.Element {

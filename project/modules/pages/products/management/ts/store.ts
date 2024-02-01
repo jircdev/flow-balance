@@ -27,7 +27,6 @@ export class StoreManager extends ReactiveModel<StoreManager> {
             this.#item.set(fields);
             this.#item.publish();
             this.#item.load();
-            console.log(this.#collection);
             routing.pushState('/products/list');
             this.triggerEvent()
         } catch (error) {

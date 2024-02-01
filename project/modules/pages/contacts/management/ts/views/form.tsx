@@ -23,13 +23,6 @@ export function FormContact({ store }) {
 					placeholder='Email'
 				/>
 				<Input className='has-icon' name='phone' value={values.phone} onChange={onChange} placeholder='Phone' />
-				<Input
-					className='has-icon'
-					name='description'
-					value={values.description}
-					onChange={onChange}
-					placeholder='Description'
-				/>
 				<Button onClick={onSubmit}>Guardar</Button>
 				<Toasts position={{ bottom: '2rem', right: '2rem' }} />
 			</div>

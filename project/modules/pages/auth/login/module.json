@@ -4,13 +4,13 @@
     "route": "/auth/login",
     "is": "page",
     "scss": {
-      "path": "/widget/scss",
+      "path": "/scss",
       "files": [
         "*"
       ]
     },
     "ts": {
-      "path": "/widget/ts",
+      "path": "/ts",
       "files": [
         "*"
       ]
