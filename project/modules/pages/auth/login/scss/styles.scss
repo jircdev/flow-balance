@@ -1,0 +1,22 @@
+.container-page__login {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0rem;
+    background: var(--surface);
+
+    .login-app {
+        max-height: 30.5rem;
+        height: 27.5rem;
+        box-shadow: var(--shadow-2);
+        width: 80%;
+        min-width: 20rem;
+        max-width: 36.813rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: var(--background);
+    }
+}

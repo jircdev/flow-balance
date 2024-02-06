@@ -5,7 +5,7 @@ import { NavProduct } from "./nav";
 import { EmptyProducts } from "./empty-products";
 import { useBinder } from "@beyond-js/react-18-widgets/hooks";
 import { ProductElement } from "../components/products";
-
+import { LoadingPage } from 'flow-balance/loading-page';
 
 export /*bundle*/
 function View({store}): JSX.Element {
@@ -25,8 +25,10 @@ function View({store}): JSX.Element {
     ));
 	
 	const value = {store};
+	
+	if (store.fetching) return <LoadingPage />;
 	if(store.collection.length === 0) return <EmptyProducts store={store}/>;
-
+	
 	return (
 		<CreateProductsContext.Provider value={value}>
 			<NavProduct />	

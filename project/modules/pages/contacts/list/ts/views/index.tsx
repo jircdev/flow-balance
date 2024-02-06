@@ -5,6 +5,7 @@ import { ButtonAdd } from 'flow-balance/button-add';
 import { NavList } from "./nav";
 import { useBinder } from "@beyond-js/react-18-widgets/hooks";
 import { EmptyContacts } from "./empty-contacts";
+import { LoadingPage } from 'flow-balance/loading-page';
 
 export /*bundle*/
 function View({store}): JSX.Element {
@@ -22,8 +23,11 @@ function View({store}): JSX.Element {
           phone={item.phone}
           email={item.email}
         />
-      ))
+      ));
+
+  if (store.fetching) return <LoadingPage />;
 	if(store.collection.items.length === 0) return <EmptyContacts store={store}/>;
+
   return (
 	<CreateContactContext.Provider value={value}>	
     <NavList />
