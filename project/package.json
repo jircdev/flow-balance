@@ -4,7 +4,7 @@
 	"title": "flow-balance",
 	"description": "",
 	"license": "ISC",
-	"layout": "base-layout",
+	"layout": "flow-base-layout",
 	"template": "template/template.json",
 	"languages": {
 		"default": "en",
