@@ -1,7 +1,7 @@
 .container__nav {
     position: sticky;
     top: 0;
-    background-color: var(--surface-variant);
+    background-color: var(--surface);
     display: flex;
     /* position: sticky;
     top: 0; */
@@ -14,7 +14,7 @@
 
 .container__navbar-scrolled {
     transition: none;
-    background-color: var(--surface-variant);
+    background-color: var()--surface;
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--outline);
 }

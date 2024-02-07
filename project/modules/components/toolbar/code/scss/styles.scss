@@ -14,7 +14,7 @@
 	right: 0px;
 	left: 0px;
 	z-index: 1;
-	background: var(--surface-variant);
+	background: var(--surface);
 	
 	&.no-back {
 		grid-template-columns: 1fr 40px auto;
