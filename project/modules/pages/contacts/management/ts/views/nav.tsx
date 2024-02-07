@@ -1,7 +1,5 @@
 import React from 'react';
-import { IconButton } from "pragmate-ui/icons";
 import { BaseToolbar } from 'flow-balance/toolbar';
-import { Button } from 'pragmate-ui/components';
 import {routing} from "@beyond-js/kernel/routing";
 import { ThemeSwitcher } from 'flow-balance/theme-swicher';
 

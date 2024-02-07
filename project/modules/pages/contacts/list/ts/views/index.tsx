@@ -2,7 +2,6 @@ import * as React from "react";
 import { CreateContactContext } from "./context";
 import { ContentContact } from "../components/contact";
 import { ButtonAdd } from 'flow-balance/button-add';
-import { NavList } from "./nav";
 import { useBinder } from "@beyond-js/react-18-widgets/hooks";
 import { EmptyContacts } from "./empty-contacts";
 import { LoadingPage } from 'flow-balance/loading-page';
@@ -30,7 +29,6 @@ function View({store}): JSX.Element {
 
   return (
 	<CreateContactContext.Provider value={value}>	
-    <NavList />
 		<div className="page__container-contact">
       <section className="container__list--contact">
         {output}

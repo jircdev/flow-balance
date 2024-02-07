@@ -1,7 +1,6 @@
 import * as React from "react";
 import { CreateProductsContext } from "./context";
 import { ButtonAdd } from 'flow-balance/button-add';
-import { NavProduct } from "./nav";
 import { EmptyProducts } from "./empty-products";
 import { useBinder } from "@beyond-js/react-18-widgets/hooks";
 import { ProductElement } from "../components/products";
@@ -31,7 +30,6 @@ function View({store}): JSX.Element {
 	
 	return (
 		<CreateProductsContext.Provider value={value}>
-			<NavProduct />	
 			<div className="page__container-products">
 				{output}			
 			</div>

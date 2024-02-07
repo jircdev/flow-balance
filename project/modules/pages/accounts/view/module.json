@@ -2,6 +2,7 @@
   "name": "view",
   "widget": {
     "route": "/accounts/view",
+    "layout": "flow-general-layout",
     "is": "page",
     "scss": {
       "path": "/scss",

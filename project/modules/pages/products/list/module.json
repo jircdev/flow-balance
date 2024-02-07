@@ -2,6 +2,7 @@
   "name": "products-list",
   "widget": {
     "route": "/products/list",
+    "layout": "flow-general-layout",
     "is": "page",
     "scss": {
       "path": "/scss",

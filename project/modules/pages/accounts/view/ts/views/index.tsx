@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { TotalCount } from './total';
-import { TabsContainer, Tabs, Tab, Panes } from 'pragmate-ui/tabs';
 import { TabIcon } from '../components/tab-icon';
 import { ContentMain } from './content-main';
 import { NavAccounts } from './nav';
@@ -22,7 +21,6 @@ function View() {
 	
 	return (
 		<>
-			<NavAccounts />
 			<main className="page__container-account">
 				<TotalCount />
 				<div className="section-content-tab">

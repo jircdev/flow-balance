@@ -1,5 +1,6 @@
 {
 	"name": "layout/main",
+	"layout": "flow-general-layout",
 	"widget": {
 		"is": "layout",
 		"element": {

@@ -2,6 +2,7 @@
   "name": "contact-list",
   "widget": {
     "route": "/contact/list",
+    "layout": "flow-general-layout",
     "is": "page",
     "scss": {
       "path": "/scss",
