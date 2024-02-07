@@ -1,10 +1,11 @@
 @mixin properties() {
 	--text-color: #1a1a1a;
 	--primary: var(--primary);
+
 	--primary-container: var(--primary-90);
 	--on-primary: var(--primary-100);
 	--on-primary-container: var(--primary-10);
-	--inverse-primary: var(--primary-80);
+	--inverse-primary: var(--primary-30);
 	--secondary: var(--secondary-40);
 	--secondary-container: var(--secondary-90);
 	--on-secondary: var(--secondary-100);

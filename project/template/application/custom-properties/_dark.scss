@@ -4,7 +4,7 @@
 	--primary-container: var(--primary-30);
 	--on-primary: #fff;
 	--on-primary-container: var(--primary-90);
-	--inverse-primary: var(--primary-40);
+	--inverse-primary: var(--primary-20);
 
 	--secondary-container: var(--secondary-30);
 	--on-secondary: #fff;
@@ -14,22 +14,22 @@
 	--on-tertiary: var(--tertiary-20);
 	--on-tertiary-container: var(--tertiary-90);
 
-	--surface: var(--secondary-20);
-	--surface-variant: var(--secondary-35);
-	--surface-dim: var(--neutral-12);
-	--surface-bright: var(--neutral-25);
+	--surface: var(--neutral-20);
+	--surface-dim: var(--neutral-20);
+	--surface-bright: var(--neutral-24);
 	--surface-container-lowest: var(--neutral-4);
 	--surface-container-low: var(--neutral-10);
 	--surface-container: var(--neutral-12);
 	--surface-container-high: var(--neutral-20);
-	--surface-container-highest: var(--neutral-22);
+	--surface-container-highest: var(--neutral-30);
+	--surface-variant: var(--neutral-variant-30);
 
 	--on-surface: var(--neutral-90);
 	--on-surface-variant: var(--neutral-variant-80);
 	--inverse-surface: var(--neutral-90);
 	--inverse-on-surface: var(--neutral-20);
 
-	--background: var(--secondary-10);
+	--background: var(--neutral-10);
 	--on-background: var(--secondary-80);
 	--error: var(--error-80);
 	--error-container: var(--error-30);
