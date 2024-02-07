@@ -1,11 +1,15 @@
 import * as React from 'react';
-import { Navigation } from 'flow-balance/body';
-import { NavHome } from './nav';
+import { Icon } from 'pragmate-ui/icons';
 export /*bundle*/
 function View(): JSX.Element {
 	return (
 		<>
-			<h1>Welcome</h1>
+			<ul className='main-home__menu'>
+				<li>
+					<Icon icon='home' />
+					Transactions
+				</li>
+			</ul>
 		</>
 	);
 }
