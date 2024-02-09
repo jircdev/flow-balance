@@ -2,6 +2,7 @@
 	"name": "home",
 	"widget": {
 		"is": "page",
+		"layout": "button-navigation",
 		"route": "/",
 		"element": {
 			"name": "home-page"

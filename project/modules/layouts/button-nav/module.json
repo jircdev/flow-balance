@@ -1,0 +1,21 @@
+{
+  "name": "layout/button-nav",
+  "widget": {
+    "is": "layout",
+    "scss": {
+      "path": "/scss",
+      "files": [
+        "*"
+      ]
+    },
+    "ts": {
+      "path": "/ts",
+      "files": [
+        "*"
+      ]
+    },
+    "element": {
+      "name": "button-navigation"
+    }
+  }
+}

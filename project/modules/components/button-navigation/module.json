@@ -1,0 +1,17 @@
+{
+  "name": "components/button-navigation",
+  "code": {
+    "scss": {
+      "path": "/scss",
+      "files": [
+        "*"
+      ]
+    },
+    "ts": {
+      "path": "/ts",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}

@@ -4,6 +4,10 @@ import { PageContainer } from 'flow-balance/components/ui';
 import { Link } from 'pragmate-ui/components';
 export /*bundle*/
 function View(): JSX.Element {
+
+	
+	  
+
 	return (
 		<PageContainer>
 			<div className='home-header__card'>
