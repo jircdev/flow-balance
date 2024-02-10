@@ -7,21 +7,21 @@ import { Button } from 'pragmate-ui/components';
 export function FormContact({ store }) {
 	const { values, onChange, onSubmit } = useForm({ store });
 
-	const defaultImage = `${globalThis.baseDir}assets/user.png`;
 	return (
 		<Form className='content-form'>
 			<div className='form-group'>
-				<Input type='text' required name='name' value={values.name} onChange={onChange} placeholder='Name' />
+				<Input type='text' required name='name' value={values.name} onChange={onChange} floating label='Name' />
 				<Input
 					className='has-icon'
 					required
 					name='email'
 					value={values.email}
 					onChange={onChange}
-					placeholder='Email'
+					floating 
+					label='Email'
 				/>
-				<Input className='has-icon' name='phone' value={values.phone} onChange={onChange} placeholder='Phone' />
-				<Button onClick={onSubmit}>Guardar</Button>
+				<Input floating label='Phone' className='has-icon' name='phone' value={values.phone} onChange={onChange} />
+				<Button onClick={onSubmit} block >Guardar</Button>
 				<Toasts position={{ bottom: '2rem', right: '2rem' }} />
 			</div>
 		</Form>

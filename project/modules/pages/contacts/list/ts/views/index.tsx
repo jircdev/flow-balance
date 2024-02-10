@@ -1,7 +1,6 @@
 import * as React from "react";
-import { CreateContactContext } from "../../../../../components/button-navigation/ts/context";
+import { CreateContactContext } from "./context";
 import { ContentContact } from "../components/contact";
-import { ButtonAdd } from 'flow-balance/button-add';
 import { useBinder } from "@beyond-js/react-18-widgets/hooks";
 import { EmptyContacts } from "./empty-contacts";
 import { LoadingPage } from 'flow-balance/loading-page';
@@ -33,7 +32,6 @@ function View({store}): JSX.Element {
       <section className="container__list--contact">
         {output}
       </section>
-      <ButtonAdd onClick={store.redirectManagement} />
 		</div>
 	</CreateContactContext.Provider>
   );

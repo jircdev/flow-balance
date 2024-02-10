@@ -15,7 +15,6 @@ export function ItemIconButton({label, icon, link, iconBox}) {
     }
 
     const typeIconButton = iconBox ? <IconButton {...iconBox} className="md"/> : <IconButton icon={icon} className="md"/>
-    console.log(typeIconButton);
     return (
         <div
           key={label}

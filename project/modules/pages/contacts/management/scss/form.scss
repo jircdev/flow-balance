@@ -17,11 +17,16 @@
         flex-direction: column;
         min-width: 100%;
         gap: .5rem;
+
+        .pui-element-input {
+            min-height: 55px;
+        }
     }
 
 
     .pui-button {
-        max-width: 180px;
+        margin-top: 1rem;
+        min-height: 50px;
         align-self: flex-end;
     }
 

@@ -2,7 +2,7 @@
   "name": "contact-management",
   "widget": {
     "route": "/contact/management",
-    "layout": "flow-general-layout",
+    "layout": "button-navigation",
     "is": "page",
     "scss": {
       "path": "/scss",
