@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Icon } from 'pragmate-ui/icons';
 import { PageContainer } from 'flow-balance/components/ui';
 import { Link } from 'pragmate-ui/components';
+import { BalanceCard } from './balance-card';
 
 export /*bundle*/
 function View({store}): JSX.Element {
@@ -35,6 +36,7 @@ function View({store}): JSX.Element {
 					</li>
 				</ul>
 			</div>
+					<BalanceCard />
 		</PageContainer>
 	);
 }
