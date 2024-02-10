@@ -1,0 +1,32 @@
+.content-history {
+    background: var(--surface-variant);
+    width: auto;
+    min-height: 70px;
+    border-radius: var(--border-radius-base);
+    display: flex;
+    padding: .5rem 1rem;
+    align-items: center;
+    justify-content: space-between;
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+
+
+        .date--info {
+            font-size: 10px;
+        }
+    }
+
+    &__amount {
+
+    .amount--income {
+            color: var(--success);
+        }
+        
+        .amount--expense {
+            color: var(--error);
+        }
+    }
+}

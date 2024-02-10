@@ -1,0 +1,14 @@
+.container__history {
+
+    .container__history--title {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .container__history-section {
+        padding: 1rem 0rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}

@@ -3,6 +3,7 @@ import { PageContainer } from 'flow-balance/components/ui';
 import { BalanceCard } from './balance-card';
 import { CardPoint } from '../components/card-points';
 import { iconSend } from '../icons';
+import { History } from './history';
 
 export /*bundle*/
 function View({store}): JSX.Element {
@@ -17,6 +18,7 @@ function View({store}): JSX.Element {
 				<CardPoint label="Egresos" icon={iconSend} background="tertiary-container"/>
 				<CardPoint label="Articulo" icon={iconSend} background="surface"/>
 			</section>
+			<History />
 		</PageContainer>
 	);
 }
