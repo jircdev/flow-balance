@@ -2,10 +2,10 @@ import * as React from 'react';
 import { Icon } from 'pragmate-ui/icons';
 import { PageContainer } from 'flow-balance/components/ui';
 import { Link } from 'pragmate-ui/components';
-export /*bundle*/
-function View(): JSX.Element {
 
-	
+export /*bundle*/
+function View({store}): JSX.Element {
+
 	  
 
 	return (
@@ -26,11 +26,11 @@ function View(): JSX.Element {
 						Registro
 					</li>
 					<li>
-						<Icon icon='home' />
-						Transferir
+						<Icon icon='home' onClick={store.goToAccounts} />
+						Contactos
 					</li>
 					<li>
-						<Icon icon='users' />
+						<Icon icon='users' onClick={store.goToContacts} />
 						Contactos
 					</li>
 				</ul>

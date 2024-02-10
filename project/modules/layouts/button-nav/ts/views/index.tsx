@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { ButtomNavigator } from 'flow-balance/components/button-navigation';
+import { usersIcon, homeIcon, userIcon } from '../iconts';
 
 declare global {
 	namespace JSX {
@@ -12,17 +13,17 @@ declare global {
 const items = [
 	{
 	  label: 'Inicio',
-	  icon: 'home',
+	  iconBox: homeIcon,
 	  link: '/',
 	},
 	{
-	  label: 'Perfil',
-	  icon: 'profile',
-	  link: '/perfil',
+	  label: 'Contactos',
+	  iconBox: usersIcon,
+	  link: '/contact/list',
 	},
 	{
 	  label: 'Configuración',
-	  icon: 'settings',
+	  iconBox: userIcon,
 	  link: '/configuracion',
 	}
   ];
