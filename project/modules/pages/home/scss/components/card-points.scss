@@ -1,0 +1,34 @@
+$colors : "secondary-container", "tertiary-container", "surface";
+
+.container__card-points {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.card-point {
+    margin-top: 1.5rem;
+    max-width: 95px;
+    min-width: 95px;
+    min-height: 10.313rem;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: space-between;
+    border-radius: var(--border-radius-base);
+    align-items: center;
+    position: relative;
+
+    @each $color in $colors {
+        &.#{$color} {
+            background-color: var(--#{$color});
+        }
+    }
+
+    .pragmate-icon.xs {
+        position: relative;
+        left: 40px;
+    }
+}
