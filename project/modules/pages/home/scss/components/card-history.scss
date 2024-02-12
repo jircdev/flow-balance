@@ -14,19 +14,25 @@
         gap: .5rem;
 
 
-        .date--info {
+        .description--info {
             font-size: 10px;
         }
     }
 
     &__amount {
-
-    .amount--income {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        .amount--income {
             color: var(--success);
         }
         
         .amount--expense {
             color: var(--error);
+        }
+
+        .date--amount {
+            font-size: 10px;
         }
     }
 }
