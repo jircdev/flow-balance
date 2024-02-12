@@ -14,9 +14,9 @@ function View({store}): JSX.Element {
 
 			<BalanceCard />
 			<section className="container__card-points">
-				<CardPoint label="Ingresos" icon={iconSend} background="secondary-container"/>
-				<CardPoint label="Egresos" icon={iconSend} background="tertiary-container"/>
-				<CardPoint label="Articulo" icon={iconSend} background="surface"/>
+				<CardPoint label="Deudas" icon={iconSend} background="secondary-container"/>
+				<CardPoint label="Cobros" icon={iconSend} background="tertiary-container"/>
+				<CardPoint label="Ahorro" icon={iconSend} background="surface"/>
 			</section>
 			<History />
 		</PageContainer>
