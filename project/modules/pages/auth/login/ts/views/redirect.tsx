@@ -5,10 +5,10 @@ export function Redirect() {
     return (
         <div className="login-app__redirect">
             <span className="redirect__span text--new-user">
-                <Link href='/'>new user ?</Link>
+                <Link href='/'>¿Nuevo usuario?</Link>
             </span>
             <span className="redirect__span text--create">
-                <Link href='/' >Create account</Link>
+                <Link href='/' >Crea una cuenta</Link>
             </span>
         </div>
     )

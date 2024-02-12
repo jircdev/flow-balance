@@ -5,14 +5,17 @@
     align-items: center;
     padding-bottom: 0rem;
     background: var(--surface);
-
+    box-sizing: border-box;
+    
     .login-app {
         max-height: 30.5rem;
-        height: 27.5rem;
+        border-radius: var(--border-radius-base);
+        min-height: 27.5rem;
         box-shadow: var(--shadow-2);
-        width: 80%;
         min-width: 20rem;
-        max-width: 36.813rem;
+        padding: 1.5rem;
+        /* max-width: 36.813rem; */
+        min-width: 80%;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;

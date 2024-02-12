@@ -4,7 +4,7 @@ export function Header() {
     return (
         <header className="login-app__header">
             <h3 className="header__h3">
-                Login
+                Iniciar sesión
             </h3>
         </header>
     )
