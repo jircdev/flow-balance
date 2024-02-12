@@ -1,23 +1,19 @@
 {
-  "name": "contact-management",
-  "widget": {
-    "route": "/contact/management",
-    "layout": "button-navigation",
-    "is": "page",
-    "scss": {
-      "path": "/scss",
-      "files": [
-        "*"
-      ]
-    },
-    "ts": {
-      "path": "/ts",
-      "files": [
-        "*"
-      ]
-    },
-    "element": {
-      "name": "contact-magement-page"
-    }
-  }
+	"name": "contact-management",
+	"widget": {
+		"route": "/contact/management",
+		"layout": "flow-layout-home",
+		"is": "page",
+		"scss": {
+			"path": "/scss",
+			"files": ["*"]
+		},
+		"ts": {
+			"path": "/ts",
+			"files": ["*"]
+		},
+		"element": {
+			"name": "contact-magement-page"
+		}
+	}
 }

@@ -1,9 +1,7 @@
 {
-	"name": "contact-list",
+	"name": "layouts/home",
 	"widget": {
-		"route": "/contact/list",
-		"layout": "flow-layout-home",
-		"is": "page",
+		"is": "layout",
 		"scss": {
 			"path": "/scss",
 			"files": ["*"]
@@ -13,7 +11,7 @@
 			"files": ["*"]
 		},
 		"element": {
-			"name": "contact-list-page"
+			"name": "flow-layout-home"
 		}
 	}
 }

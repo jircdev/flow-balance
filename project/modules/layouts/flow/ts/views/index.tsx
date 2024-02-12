@@ -16,7 +16,8 @@ export function Layout() {
 	return (
 		<main>
 			<BaseToolbar>
-				<Menu items={menuItems} title='Title' />
+				{/* <Menu items={menuItems} title='Title' /> */}
+				{/* @ts-ignore */}
 				<ThemeSwitcher />
 			</BaseToolbar>
 			<beyond-layout-children />

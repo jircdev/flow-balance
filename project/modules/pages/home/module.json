@@ -1,11 +1,11 @@
 {
-	"name": "home",
+	"name": "home-page",
 	"widget": {
 		"is": "page",
-		"layout": "button-navigation",
+		"layout": "flow-layout-home",
 		"route": "/",
 		"element": {
-			"name": "home-page"
+			"name": "flow-home-page"
 		},
 		"scss": {
 			"path": "scss",

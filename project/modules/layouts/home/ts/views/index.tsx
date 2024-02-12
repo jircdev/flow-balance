@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ButtomNavigator } from 'flow-balance/components/button-navigation';
+import { BottomBar } from 'flow-balance/components/bottom-bar';
 import { usersIcon, homeIcon, userIcon } from '../iconts';
 
 declare global {
@@ -12,27 +12,27 @@ declare global {
 
 const items = [
 	{
-	  label: 'Inicio',
-	  iconBox: homeIcon,
-	  link: '/',
+		label: 'Inicio',
+		iconBox: homeIcon,
+		link: '/',
 	},
 	{
-	  label: 'Contactos',
-	  iconBox: usersIcon,
-	  link: '/contact/list',
+		label: 'Contactos',
+		iconBox: usersIcon,
+		link: '/contact/list',
 	},
 	{
-	  label: 'Configuración',
-	  iconBox: userIcon,
-	  link: '/configuracion',
-	}
-  ];
+		label: 'Configuración',
+		iconBox: userIcon,
+		link: '/configuracion',
+	},
+];
 
 export function Layout() {
 	return (
 		<main>
 			<beyond-layout-children />
-			<ButtomNavigator icons={items} />
+			<BottomBar icons={items} />
 		</main>
 	);
 }
