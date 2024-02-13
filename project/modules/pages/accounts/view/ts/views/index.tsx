@@ -2,7 +2,6 @@ import * as React from 'react';
 import { TotalCount } from './total';
 import { TabIcon } from '../components/tab-icon';
 import { ContentMain } from './content-main';
-import { NavAccounts } from './nav';
 
 export /*bundle*/
 function View() {
