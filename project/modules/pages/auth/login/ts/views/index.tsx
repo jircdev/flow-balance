@@ -3,6 +3,7 @@ import { CreateLoginContext } from './context';
 import { Header } from './header';
 import { Redirect } from './redirect';
 import { FormLogin } from './form';
+import { Footer } from './footer';
 
 export /*bundle*/
 function View() {
@@ -15,6 +16,7 @@ function View() {
 					<Header />
 					<Redirect />
 					<FormLogin />
+					<Footer />
 				</section>
 			</main>
 		</CreateLoginContext.Provider>

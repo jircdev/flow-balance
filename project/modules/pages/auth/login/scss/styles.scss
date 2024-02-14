@@ -10,15 +10,17 @@
     .login-app {
         max-height: 30.5rem;
         border-radius: var(--border-radius-base);
+        box-sizing: border-box;
         min-height: 27.5rem;
         box-shadow: var(--shadow-2);
         min-width: 20rem;
         padding: 1.5rem;
         /* max-width: 36.813rem; */
-        min-width: 80%;
+        min-width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        /* justify-content: space-evenly; */
+        gap: 1.5rem;
         align-items: center;
         background-color: var(--background);
     }

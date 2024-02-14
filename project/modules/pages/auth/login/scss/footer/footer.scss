@@ -1,0 +1,12 @@
+.login-app__footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .content-links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+    }
+}

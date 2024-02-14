@@ -1,3 +1,11 @@
 .login-app__form {
+    box-sizing: border-box;
     min-width: 100%;
+
+    .form-app {
+
+        .pui-button {
+            min-height: 40px;
+        }
+    }
 }
