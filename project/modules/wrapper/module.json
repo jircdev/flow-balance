@@ -1,0 +1,11 @@
+{
+  "name": "wrapper",
+  "code": {
+    "ts": {
+      "path": "/ts",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}
