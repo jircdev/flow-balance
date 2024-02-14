@@ -1,0 +1,49 @@
+.header-bar {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: none;
+    height: 7.313rem;
+    position: sticky;
+    min-width: 100%;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1;
+    background: var(--surface);
+    box-shadow: var(--shadow-2);
+
+    &__section.welcome {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        .text-welcome {
+            font-size: 16px;
+            opacity: .5;
+        }
+        .label--name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+    }
+
+    &__section.notification {
+        display: flex;
+        align-self: flex-start;
+
+
+        .pui-badge__container {
+            right: 1rem;
+        } 
+        a {
+            position: relative;
+            top: 10px;
+        }
+    }
+}
+
