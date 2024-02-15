@@ -7,8 +7,8 @@ export function FormLogin() {
         <form action="" className="login-app__form">
             <div className="form-app">
                 <div className="form-app__inputs">
-                    <Input type="text" name="name" label="Nombre de usuario" />
-                    <Input type="password" name="password" label="Contraseña"  />
+                    <Input type="text" name="name" placeholder="Nombre de usuario" />
+                    <Input type="password" name="password" placeholder="Contraseña"  />
                 </div>
                 <Button variant="primary" block>Iniciar</Button>
             </div>

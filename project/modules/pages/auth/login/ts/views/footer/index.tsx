@@ -9,8 +9,8 @@ export function Footer() {
                 O inicia sesión con
             </span>
             <section className="content-links">
-                <IconBackground icon={iconFace} />
                 <IconBackground icon={iconGoogle} />
+                <IconBackground icon={iconFace} />
                 <IconBackground icon={iconIg} />
             </section>
         </footer>

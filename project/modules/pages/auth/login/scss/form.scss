@@ -3,6 +3,22 @@
     min-width: 100%;
 
     .form-app {
+        display: flex;
+        flex-direction: column;
+        gap: 1.3rem;
+        .form-app__inputs {
+            display: flex;
+            flex-direction: column;
+            gap: 1.3rem;
+
+            .pui-element-input {
+                display: flex;
+                align-items: center;
+                margin: 0;
+                border-radius: var(--border-radius-base);
+                min-height: 48px;
+            }
+        }
 
         .pui-button {
             min-height: 40px;

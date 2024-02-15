@@ -11,7 +11,7 @@
         max-height: 30.5rem;
         border-radius: var(--border-radius-base);
         box-sizing: border-box;
-        min-height: 27.5rem;
+        min-height: 32.875rem;
         box-shadow: var(--shadow-2);
         min-width: 20rem;
         padding: 1.5rem;
@@ -21,6 +21,8 @@
         flex-direction: column;
         /* justify-content: space-evenly; */
         gap: 1.5rem;
+        padding-top: 5rem;
+        padding-bottom: 1rem;
         align-items: center;
         background-color: var(--background);
     }
