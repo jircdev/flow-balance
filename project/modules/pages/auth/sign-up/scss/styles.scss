@@ -1,0 +1,29 @@
+.container-page__sign-up {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0rem;
+    background: var(--surface);
+    box-sizing: border-box;
+    
+    .sign-up-app {
+        max-height: 30.5rem;
+        border-radius: var(--border-radius-base);
+        box-sizing: border-box;
+        min-height: 41.063rem;
+        box-shadow: var(--shadow-2);
+        min-width: 20rem;
+        padding: 1.5rem;
+        /* max-width: 36.813rem; */
+        min-width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        gap: 1.5rem;
+        padding-top: 5rem;
+        padding-bottom: 1rem;
+        align-items: center;
+        background-color: var(--background);
+    }
+}

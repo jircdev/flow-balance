@@ -1,0 +1,18 @@
+.sign-up-app__footer {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+
+    .footer__span--line {
+        font-size: 13px;
+    }
+
+    .content-links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+    }
+}

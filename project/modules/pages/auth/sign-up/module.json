@@ -1,7 +1,7 @@
 {
-  "name": "auth/login",
+  "name": "auth/sign-up",
   "widget": {
-    "route": "/auth/login",
+    "route": "/auth/sign-up",
     "is": "page",
     "scss": {
       "path": "/scss",
@@ -16,7 +16,7 @@
       ]
     },
     "element": {
-      "name": "auth-login-page"
+      "name": "auth-sign-up-page"
     }
   }
 }

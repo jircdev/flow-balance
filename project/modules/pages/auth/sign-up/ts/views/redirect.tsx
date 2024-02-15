@@ -3,12 +3,12 @@ import { Link } from 'pragmate-ui/link';
 
 export function Redirect() {
     return (
-        <div className="login-app__redirect">
+        <div className="sign-up-app__redirect">
             <span className="redirect__span text--new-user">
-                <Link href='/'>¿Nuevo usuario?</Link>
+                <Link href='/'>¿Ya eres usuario??</Link>
             </span>
             <span className="redirect__span text--create">
-                <Link href='/auth/sign-up' >Crea una cuenta</Link>
+                <Link href='/auth/login' >Iniciar sesión</Link>
             </span>
         </div>
     )

@@ -1,0 +1,19 @@
+.sign-up-app__redirect {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    .redirect__span {
+
+        a {
+            text-decoration: none;
+            color: var(--text-color);
+        }
+
+        &.text--create {
+            a {
+                color: var(--primary);
+
+            }
+        }
+    }
+}
