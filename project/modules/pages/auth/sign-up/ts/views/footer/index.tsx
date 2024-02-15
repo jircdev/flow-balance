@@ -5,6 +5,7 @@ import { iconFace, iconGoogle, iconIg } from "./icons";
 export function Footer() {
     return (
         <footer className="sign-up-app__footer">
+            <div className="line"></div>
             <span className="footer__span--line">
                 O inicia sesión con
             </span>

@@ -4,11 +4,25 @@
     flex-direction: column;
     gap: 2rem;
     align-items: center;
+    position: relative;
+    min-width: 100%;
 
     .footer__span--line {
         font-size: 13px;
+        z-index: 20;
+        background: var(--background);
+        padding: 0 10px;
     }
 
+            
+    .line {
+        position: absolute;
+        top: 5px;
+        min-width: 100%;
+        border: 2px solid var(--outline);
+        border-radius: var(--border-radius-base);
+        z-index: 1;
+    }
     .content-links {
         display: flex;
         flex-direction: row;
